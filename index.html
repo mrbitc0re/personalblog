@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Journal</title>
+  <link rel="icon" href="Assets\Favicon\hacker.png" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+</head>
 
+<body>
+  <header class="navbar">
+    <h1 class="brand">My Journal</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#posts">Stories</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I’m ####!</h2>
+    <p>Welcome to my little corner of the internet where I share snapshots of everyday adventures.</p>
+  </section>
+
+  <main id="posts" class="posts">
+    <article class="post">
+      <h3 class="post-title">Sunrise Over the #########</h3>
+      <span class="date">12 Jul 2025</span>
+      <p>
+        Last weekend I set my alarm for 4 a.m., brewed a tiny mug of coffee, and drove out to the coast.
+        Watching the sky turn from deep indigo to soft pink was worth every yawn.
+        A friendly ######### even let me sit on his boat for a better view!
+      </p>
+      <a class="read-more" href="#">Read more →</a>
+    </article>
+
+    <article class="post">
+      <h3 class="post-title">Learning to Bake Sourdough</h3>
+      <span class="date">05 Jul 2025</span>
+      <p>
+        After weeks of feeding a bubbling jar of starter—whom I’ve named “###### ##############”—I finally pulled
+        my first loaf from the oven. The crust crackled like a campfire and the kitchen smelled like a bakery
+        at dawn. Turns out patience (and a lot of flour) pays off.
+      </p>
+      <a class="read-more" href="#">Read more →</a>
+    </article>
+
+    <article class="post">
+      <h3 class="post-title">A Rainy Day Book Haul</h3>
+      <span class="date">28 Jun 2025</span>
+      <p>
+        The forecast promised storms, so I ducked into my favorite second-hand ###########.
+        Three hours later I emerged with a stack of travel memoirs, a vintage camera manual,
+        and a tiny ceramic cat. Rainy-day treasure hunting at its finest.
+      </p>
+      <a class="read-more" href="#">Read more →</a>
+    </article>
+
+  <article class="post">
+    <h3 class="post-title">Last Night in the Backyard</h3>
+    <span class="date">11 Jul 2025</span>
+    <p>
+      At around 2:47 a.m., I heard footsteps on the gravel. I looked out the window and saw a man standing completely still under the lemon tree.
+      When I turned on the porch light, he vanished. The cameras didn’t catch anything. No sound. No trace.<br><br>
+    </p>
+    <a class="read-more" href="#">Read more →</a>
+  </article>
+
+  <article class="post">
+    <h3 class="post-title">The Note on the Bike</h3>
+    <span class="date">10 Jul 2025</span>
+    <p>
+      This morning I found a folded note tucked into the basket of my bike. It simply read: “Keep pedaling.”<br>
+      I don’t know who left it, but it made me smile all the way to the bakery.
+    </p>
+    <a class="read-more" href="#">Read more →</a>
+  </article>
+
+  </main>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a curious soul who loves early-morning road trips, messy kitchens, and
+      collecting stories in unexpected places. This journal is where I keep them safe.
+    </p>
+  </section>
+
+  <footer id="contact" class="footer">
+    <p>© 2025 — Written with ☕ by ####.</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal-content">
+      <span class="close-button" id="closeModal">&times;</span>
+      <h3 id="modalTitle">Post Title</h3>
+      <img id="modalImage" src="" alt="Post image" />
+      <p id="modalText">Post content goes here...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
